@@ -2,20 +2,9 @@ import { Link, NavLink } from "react-router-dom";
 import logo from "../assets/logo.png";
 import userIcon from "../assets/user.png";
 import { IoSearchOutline } from "react-icons/io5";
-import { Navigation } from "../constants/navigation";
+import { Navigation } from "../constants/Navigation";
 
 const Header = () => {
-  // const location = useLocation();
-  // const removeSpace = location?.search?.slice(3)?.split("%20")?.join(" ");
-  // const [searchInput, setSearchInput] = useState(removeSpace);
-  // const navigate = useNavigate();
-
-  // useEffect(() => {
-  //   if (searchInput) {
-  //     navigate(`/search?q=${searchInput}`);
-  //   }
-  // }, [searchInput]);
-
   const handleSubmit = (e) => {
     e.preventDefault();
   };
